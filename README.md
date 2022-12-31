@@ -2,7 +2,7 @@
 This is my Project ChatFlow Design By: Muhammad Nauval Azhar 
 
 <p align="center">
-   <img width="300" height="auto" src="public/image/Hero-image.jpg" />
+   <img width="300" height="auto" src="public/image/Background-hero.jpg" />
 </p>
 
 # To Use 
