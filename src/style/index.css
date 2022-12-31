@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Source+Sans+Pro:wght@400;700&family=Source+Serif+Pro:wght@600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --primary-color: #0D082C;
+    --secondary-color: #474E68;
+    --tertiary-color: #50577A;
+    --quaternary-color: #6B728E;
+
+    --white: #ffffff;
+    --fifyty-color: #d0d30e;
+    
+    --font-family-primary: 'Merriweather', serif;
+    --font-family-secondary: 'Source Sans Pro', sans-serif;
+    --font-family-tertiary: 'Source Serif Pro', serif;
+}
+
+h1, h2 {
+    font-family: var(--font-family-tertiary);
+    color: var(--white);
+}
+
+h4, h3 {
+    font-family: var(--font-family-primary);
+    font-weight: 700;
+}
+
+p {
+    font-family: var(--font-family-secondary);
+}
+
+a{
+    text-decoration: none;
+    color: var(--secondary-color);
+    display: block;
+    min-width: 44px;
+    min-height: 44px;
+    line-height: 50px;
+    box-shadow: transparent;
+}
+
+ul {
+    display:  flex;
+}
+
+li {
+    list-style: none;
+}
+
+.wrapper {
+    padding: 2rem 120px;
+}
+
+.d-flex {
+    display: flex;
+    column-gap: 2.5rem;
+}
+
+.navbar button {
+    display: none;
+    min-width: 44px;
+    min-height: 44px;
+}
+
+.main__content {
+    height: auto;
+}
