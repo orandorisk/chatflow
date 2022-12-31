@@ -1,5 +1,9 @@
 # Starter Project Javascript With Webpack
-This is my stater project to make app with javascript
+This is my Project ChatFlow Design By: Muhammad Nauval Azhar 
+
+<p align="center">
+   <img width="300" height="auto" src="public/image/Hero-image.jpg" />
+</p>
 
 # To Use 
 
