@@ -1,9 +1,8 @@
 # Starter Project Javascript With Webpack
 This is my Project ChatFlow Design By: Muhammad Nauval Azhar 
 
-<p align="center">
-   <img width="300" height="300" src="public/image/Background-hero.jpg" />
-</p>
+## Design Source
+<a href="https://www.figma.com/community/file/1186225915682214172">Figma</a>
 
 # To Use 
 
