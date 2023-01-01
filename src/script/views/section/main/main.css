@@ -98,4 +98,22 @@
    .main__content__right {
       background-size: contain;
    }
+   .main__content__left__buttons {
+      justify-content: center;
+   }
+}
+
+@media screen and (max-width: 768px) {
+   .main__content {
+      flex-direction: column;
+   }
+   
+   .main__content__left h1 {
+      font-size: 2.5rem;
+   }
+
+   .main__content__left__buttons {
+      flex-direction: column;
+      row-gap: 1rem;
+   }
 }

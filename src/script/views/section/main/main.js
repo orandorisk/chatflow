@@ -1,5 +1,6 @@
 import './main.css';
 import Navbar from '../../../components/navbar/navbar';
+import Feature from '../feature/feature';
 
 function Main() {
   return `
@@ -22,6 +23,7 @@ function Main() {
                 </div>
             </div>
         </div>
+        ${Feature()}
     `;
 }
 
