@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Source+Sans+Pro:wght@400;700&family=Source+Serif+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&family=Merriweather:wght@400;700&family=Source+Sans+Pro:wght@400;700&family=Source+Serif+Pro:wght@600&display=swap');
 
 * {
     padding: 0;
@@ -14,7 +14,7 @@ html {
     --primary-color: #0D082C;
     --secondary-color: #474E68;
     --tertiary-color: #50577A;
-    --quaternary-color: #6B728E;
+    --quaternary-color: #4635F3;
 
     --white: #ffffff;
     --fifyty-color: #d0d30e;
@@ -22,6 +22,7 @@ html {
     --font-family-primary: 'Merriweather', serif;
     --font-family-secondary: 'Source Sans Pro', sans-serif;
     --font-family-tertiary: 'Source Serif Pro', serif;
+    --font-family-quaternary: 'DM Sans', sans-serif;
 }
 
 h1, h2 {
@@ -73,4 +74,10 @@ li {
 
 .main__content {
     height: auto;
+}
+
+@media screen and (max-width: 500px) {
+    .wrapper {
+        padding: 2rem 33px;
+    }
 }

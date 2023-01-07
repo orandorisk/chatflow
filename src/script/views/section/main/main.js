@@ -1,6 +1,8 @@
 import './main.css';
 import Navbar from '../../../components/navbar/navbar';
 import Feature from '../feature/feature';
+import Demo from '../demo/demo';
+import Price from '../price/price';
 
 function Main() {
   return `
@@ -24,6 +26,8 @@ function Main() {
             </div>
         </div>
         ${Feature()}
+        ${Demo()}
+        ${Price()}
     `;
 }
 

@@ -4,7 +4,7 @@
     }
 }
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 950px) {
     .navbar {
         display: flex;
         justify-content: space-between;
@@ -40,7 +40,6 @@
 @media screen and (min-width: 900px) {
     .navbar__navigation {
         justify-content: space-between;
-        margin-left: 3rem;
     }
 }
 
