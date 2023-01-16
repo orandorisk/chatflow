@@ -10,15 +10,19 @@ function Navbar() {
                 <ul class="d-flex">
                     <li>
                         <a href="#" class="active">Home</a>
+                        <span></span>
                     </li>
                     <li>
                         <a href="#" class="">Pricing</a>
+                        <span></span>
                     </li>
                     <li>
                         <a href="#" class="">Support</a>
+                        <span></span>
                     </li>
                     <li>
                         <a href="#" class="">Contact Us</a>
+                        <span></span>
                     </li>
                 </ul>
                 <div class="navbar__buttons d-flex">

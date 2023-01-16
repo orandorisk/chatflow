@@ -47,6 +47,12 @@
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    transform: translateY(0); 
+    transition: transform 0.6s; 
+}
+
+.card__item-price:hover {
+    transform: translateY(-10px); 
 }
 
 .card__item-price-header {

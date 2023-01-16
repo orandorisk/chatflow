@@ -47,6 +47,12 @@ a{
     min-height: 44px;
     line-height: 50px;
     box-shadow: transparent;
+    transform: translateY(0); 
+    transition: transform 0.2s; 
+}
+
+a:hover {
+    transform: translateY(-6px); 
 }
 
 ul {
@@ -55,7 +61,27 @@ ul {
 
 li {
     list-style: none;
+    position: relative;
 }
+
+li span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 0;
+    height: 3px;
+    background-color: var(--white);
+    transition: width 0.2s;
+    margin: auto;
+}
+
+li:hover span {
+    width: 100%;
+  }
+li span:hover {
+    width: 0;
+  }
 
 .wrapper {
     padding: 2rem 120px;
