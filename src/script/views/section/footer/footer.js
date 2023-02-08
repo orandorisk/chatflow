@@ -85,7 +85,7 @@ function Footer() {
                 </ul>
             </div>
             <div class="footer__content-copryright">
-                <p>COPYRIGHT &copy 2023 - DESIGN BY NAUVAL</p>
+                <p>COPYRIGHT &copy 2023 - DESIGN BY NAUVAL CODE BY <a href="https://github.com/orandorisk">Orlando</a></p>
             </div>
         </footer>
     `;
