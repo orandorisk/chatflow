@@ -78,6 +78,8 @@ footer {
 }
 
 .footer__content-copryright p {
+    display: flex;
+    align-item: center;
     font-weight: 700;
     font-size: 12px;
     opacity: 40%;
